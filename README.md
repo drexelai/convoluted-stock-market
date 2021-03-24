@@ -10,8 +10,8 @@
 - [x] Implement the metric - Ethan
 - [x] Convolution operation - Ethan
 - [x] Determine and report buy and hold value for the carnival - Yigit
-- [ ] Fit a beta curve to determine the patterns (implement h(t)) 
-- [ ] Report consolidation breakout profits - Yigit
+- [x] Fit model via gradient descent to determine the patterns (implement h(t)) - Yigit 
+- [x] Report consolidation breakout profits - Yigit
 - [x] Implement pipeline code - Yigit
  
 ## Development
@@ -49,24 +49,4 @@ Mega Cap Stocks from sectors whose average volume is greater than 1M.
 - XLF
 
 ## Current Results
-### Buy and Hold
-```
-[INFO] Pipeline for all stocks started. Start date: 2002-02-13 End date: 2021-02-12
-[INFO] SPY buy and hold percent increase is 199.01568103357366%
-[INFO] XLK buy and hold percent increase is 257.9072973953583%
-[INFO] XLV buy and hold percent increase is 205.246846652216%
-[INFO] XLF buy and hold percent increase is 169.4375809774955%
-[INFO] AAPL buy and hold percent increase is 702.8559614372138%
-[INFO] MSFT buy and hold percent increase is 329.2663695674954%
-[INFO] TSM buy and hold percent increase is 433.2157151856909%
-[INFO] NVDA buy and hold percent increase is 616.0704686694858%
-[INFO] JNJ buy and hold percent increase is 189.87428557255117%
-[INFO] UNH buy and hold percent increase is 398.6397051555083%
-[INFO] NVS buy and hold percent increase is 196.80808895444898%
-[INFO] ABT buy and hold percent increase is 266.7951924005368%
-[INFO] BRK-B buy and hold percent increase is 202.89777759708417%
-[INFO] V buy and hold percent increase is nan%
-[INFO] JPM buy and hold percent increase is 345.2042508493086%
-[INFO] MA buy and hold percent increase is nan%
-[INFO] Pipeline for all stocks finished.
-```
+![Results Table](assets/results.png)
